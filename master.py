@@ -17,8 +17,10 @@ pygame.display.set_caption("Rey in Prague")
 #defines background image
 img = pygame.image.load("prague.png")
 
-#defines character image
-img2 = pygame.image.load("Rey_green_screen.png")
+#defines character image and converts it to alpha to enable us to make it less transparent
+img2 = pygame.image.load("Rey_green_screen.png").covert_alpha()
+
+img2.set_alpha(255)
 
 width = img.get_width()
 
@@ -28,7 +30,7 @@ screen = pygame.display.set_mode((width, height))
 
 #This for loop recolors each pixel in the images. This is the original from the assignment!
 for y in range(0, height-1):
-    for x in range(0, width-1):
+    for x in range(0, width-207):
         c1 = img.get_at((x, y))
         c2 = img2.get_at((x, y))
         newcolor = ((c1.r + c2.r) // 2, (c1.g + c2.g) // 2, (c1.b + c2.b) // 2)
