@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea38da4-f4c1-4da9-acbb-02203f47ca86" name="Changes" comment="Tried revising the code based on the powerpoint and the result is the same" />
+    <list default="true" id="fea38da4-f4c1-4da9-acbb-02203f47ca86" name="Changes" comment="Tried revising the code based on the powerpoint and the result is the same">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772176852306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tried revising the code based on the powerpoint and the result is the same">
+      <option name="closed" value="true" />
+      <created>1772177376577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772177376577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
