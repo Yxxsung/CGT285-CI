@@ -2,3 +2,4 @@
 #Sophia Alexander
 #Last Edited: 02/26/26
 
+#The goal is to take a character image, delete the background and put it on a new background
