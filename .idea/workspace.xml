@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea38da4-f4c1-4da9-acbb-02203f47ca86" name="Changes" comment="fixed pygame error by installing package, moved images to compositeImaging folder so the program can find them">
+    <list default="true" id="fea38da4-f4c1-4da9-acbb-02203f47ca86" name="Changes" comment="changed the window name to 'Rey in Prague'. Image ran without error this time but doesn't look quite right yet, I still need to get rid of the green background, then I'll be done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772173212356</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed the window name to 'Rey in Prague'. Image ran without error this time but doesn't look quite right yet, I still need to get rid of the green background, then I'll be done!">
+      <option name="closed" value="true" />
+      <created>1772175626487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772175626487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +141,7 @@
     <MESSAGE value="The averaging code from the assignment" />
     <MESSAGE value="updating indentation for averaging code from the assignment" />
     <MESSAGE value="fixed pygame error by installing package, moved images to compositeImaging folder so the program can find them" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed pygame error by installing package, moved images to compositeImaging folder so the program can find them" />
+    <MESSAGE value="changed the window name to 'Rey in Prague'. Image ran without error this time but doesn't look quite right yet, I still need to get rid of the green background, then I'll be done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the window name to 'Rey in Prague'. Image ran without error this time but doesn't look quite right yet, I still need to get rid of the green background, then I'll be done!" />
   </component>
 </project>

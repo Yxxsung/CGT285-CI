@@ -25,6 +25,7 @@ height = img.get_height()
 
 screen = pygame.display.set_mode((width, height))
 
+#This for loop recolors each pixel in the images
 for y in range(0, height):
     for x in range(0, width):
         c1 = img.get_at((x, y))
