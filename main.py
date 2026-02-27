@@ -10,7 +10,8 @@ import pygame
 # Initialize the game
 pygame.init()
 
-pygame.display.set_caption("Hello World")
+#This is what names the pop-up window
+pygame.display.set_caption("Rey in Prague")
 
 #defines background image
 img = pygame.image.load("prague.png")
