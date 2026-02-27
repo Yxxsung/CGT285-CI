@@ -50,8 +50,8 @@ while not done:
 #supposedly that is all comments now??
 
 #The last slide in the presentation formats the loop like this:
-for y in range(0, height-1):
-    for x in range(0, width-1):
+for y in range(0, height-0):
+    for x in range(0, width-200):
         pixelColor = img.get_at((x, y))
         pixelColor2 = img2.get_at((x, y))
         red = (pixelColor.r+pixelColor2.r) / 2
