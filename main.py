@@ -25,13 +25,40 @@ height = img.get_height()
 
 screen = pygame.display.set_mode((width, height))
 
-#This for loop recolors each pixel in the images
-for y in range(0, height):
-    for x in range(0, width):
+#This for loop recolors each pixel in the images. This is the original from the assignment!
+'''for y in range(0, height-1):
+    for x in range(0, width-1):
         c1 = img.get_at((x, y))
         c2 = img2.get_at((x, y))
         newcolor = ((c1.r + c2.r) // 2, (c1.g + c2.g) // 2, (c1.b + c2.b) // 2)
         img.set_at((x, y), newcolor)
+
+screen.blit(img, (0, 0) )
+
+pygame.display.flip()
+
+pygame.image.save(img, "BW.png")
+
+done = False
+
+while not done:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            done = True
+'''
+#supposedly that is all comments now??
+
+#The last slide in the presentation formats the loop like this:
+for y in range(0, height-1):
+    for x in range(0, width-1):
+        pixelColor = img.get_at((x, y))
+        pixelColor2 = img2.get_at((x, y))
+        red = (pixelColor.r+pixelColor2.r) / 2
+        green = (pixelColor.g+pixelColor2.g) / 2
+        blue = (pixelColor.b+pixelColor2.b) / 2
+        newColor = pygame.Color(int(red), int(green), int(blue))
+        img.set_at((x, y), newColor)
 
 screen.blit(img, (0, 0) )
 
