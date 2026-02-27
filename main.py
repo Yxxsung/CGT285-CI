@@ -12,9 +12,11 @@ pygame.init()
 
 pygame.display.set_caption("Hello World")
 
+#defines background image
 img = pygame.image.load("prague.png")
 
-img2 = pygame.image.load("winter.png")
+#defines character image
+img2 = pygame.image.load("Rey_green_screen.png")
 
 width = img.get_width()
 
