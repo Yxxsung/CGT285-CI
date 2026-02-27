@@ -23,16 +23,11 @@ height = img.get_height()
 screen = pygame.display.set_mode((width, height))
 
 for y in range(0, height):
-
-for x in range(0, width):
-
-c1 = img.get_at((x, y))
-
-c2 = img2.get_at((x, y))
-
-newcolor = ((c1.r + c2.r) // 2, (c1.g + c2.g) // 2, (c1.b + c2.b) // 2)
-
-img.set_at((x, y), newcolor)
+    for x in range(0, width):
+        c1 = img.get_at((x, y))
+        c2 = img2.get_at((x, y))
+        newcolor = ((c1.r + c2.r) // 2, (c1.g + c2.g) // 2, (c1.b + c2.b) // 2)
+        img.set_at((x, y), newcolor)
 
 screen.blit(img, (0, 0) )
 

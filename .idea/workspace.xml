@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea38da4-f4c1-4da9-acbb-02203f47ca86" name="Changes" comment="Working with the code from the brightspace presentation">
+    <list default="true" id="fea38da4-f4c1-4da9-acbb-02203f47ca86" name="Changes" comment="The averaging code from the assignment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772164412805</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The averaging code from the assignment">
+      <option name="closed" value="true" />
+      <created>1772164593716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772164593716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Working with the code from the brightspace presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with the code from the brightspace presentation" />
+    <MESSAGE value="The averaging code from the assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="The averaging code from the assignment" />
   </component>
 </project>
