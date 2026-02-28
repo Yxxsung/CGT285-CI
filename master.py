@@ -18,15 +18,17 @@ pygame.display.set_caption("Rey in Prague")
 img = pygame.image.load("prague.png")
 
 #defines character image and converts it to alpha to enable us to make it less transparent
-img2 = pygame.image.load("Rey_green_screen.png").covert_alpha()
-
-img2.set_alpha(255)
+img2 = pygame.image.load("Rey_green_screen.png").convert_alpha()
 
 width = img.get_width()
 
 height = img.get_height()
 
+#creates the display surface we'll be using to show us the image
 screen = pygame.display.set_mode((width, height))
+
+#sets the alpha to the max (255) to make it fully opaque
+img2.set_alpha(255)
 
 #This for loop recolors each pixel in the images. This is the original from the assignment!
 for y in range(0, height-1):
