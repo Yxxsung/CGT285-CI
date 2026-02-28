@@ -7,6 +7,9 @@
 
 #This is the averaging code found in the assignment document
 import pygame
+from pygame.surface import Surface
+
+from main import screen
 
 # Initialize the game
 pygame.init()
@@ -18,7 +21,7 @@ pygame.display.set_caption("Rey in Prague")
 img = pygame.image.load("prague.png")
 
 #defines character image and converts it to alpha to enable us to make it less transparent
-img2 = pygame.image.load("Rey_green_screen.png").convert_alpha()
+img2 = pygame.image.load("Rey_green_screen.png").convert_alpha(screen)
 
 width = img.get_width()
 

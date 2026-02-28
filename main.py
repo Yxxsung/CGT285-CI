@@ -51,7 +51,17 @@ while not done:
 
 #The last slide in the presentation formats the loop like this:
 for y in range(0, height-0):
-    for x in range(0, width-200):
+    for x in range(0, width-207):
+        pixelColor = img.get_at((x, y))
+        pixelColor2 = img2.get_at((x, y))
+        red = (pixelColor.r+pixelColor2.r) / 2
+        green = (pixelColor.g+pixelColor2.g) / 2
+        blue = (pixelColor.b+pixelColor2.b) / 2
+        newColor = pygame.Color(int(red), int(green), int(blue))
+        img.set_at((x, y), newColor)
+
+for y in range(0, height-0):
+    for x in range(width-500, width-700):
         pixelColor = img.get_at((x, y))
         pixelColor2 = img2.get_at((x, y))
         red = (pixelColor.r+pixelColor2.r) / 2
