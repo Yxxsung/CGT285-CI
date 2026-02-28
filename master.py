@@ -9,8 +9,6 @@
 import pygame
 from pygame.surface import Surface
 
-from main import screen
-
 # Initialize the game
 pygame.init()
 
@@ -35,14 +33,17 @@ img2.set_alpha(255)
 img.set_alpha(255)
 
 #This for loop recolors each pixel in the images. This is the original from the assignment!
-for y in range(0, height-1):
-    for x in range(0, width-207):
-        c1 = img.get_at((x, y))
-        c2 = img2.get_at((x, y))
-        newcolor = ((c1.r + c2.r) // 2, (c1.g + c2.g) // 2, (c1.b + c2.b) // 2)
-        img.set_at((x, y), newcolor)
+for y in range(0, height):
+    for x in range(0, width):
+        c2 = img2.get_at((x, y)) #Rey's image
+        #Check to see if the pixel is green and change it!
+        if c2.g > 150 and c2.r < 100 and c2.b < 100:
+            c1 = img.get_at((x, y))
+            img.set_at((x, y), c1)
+        else:
+            img.set_at((x, y), c2)
 
-screen.blit(img2, (0, 0) )
+screen.blit(img, (0, 0) )
 
 pygame.display.flip()
 
